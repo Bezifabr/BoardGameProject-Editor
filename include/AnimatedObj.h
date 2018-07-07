@@ -1,0 +1,23 @@
+/// ////////////////////////////////////////////////////////////////////////////
+//
+// Project: 'The Board Game Project'
+// AnimatedObj.h
+// Purpose: Animated version of graphic object
+//
+// Copyright (C) Maciej Saranda 2016 (Bezifabr@gmail.com)
+// Code written only for use by Mighty Gorilla Studio.
+//
+//
+//
+/// ////////////////////////////////////////////////////////////////////////////
+#pragma once
+
+////////////////////
+// HEADERS
+////////////////////
+#include "GraphicObj.h"
+
+class Animated : public Graphic
+{
+
+};

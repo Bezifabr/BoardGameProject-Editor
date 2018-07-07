@@ -1,0 +1,25 @@
+/// ////////////////////////////////////////////////////////////////////////////
+//
+// Project: 'The Board Game Project'
+// CharactersMgr.cpp
+// Purpose: Contains players and NPCs
+//
+// Copyright (C) Maciej Saranda 2016 (Bezifabr@gmail.com)
+// Code written only for use by Mighty Gorilla Studio.
+//
+//
+//
+/// ////////////////////////////////////////////////////////////////////////////
+
+////////////////////
+// HEADERS
+////////////////////
+#include "CharactersMgr.h"
+
+Characters::Characters()
+{
+}
+
+Characters::~Characters()
+{
+}
