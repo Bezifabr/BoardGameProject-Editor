@@ -1,0 +1,31 @@
+Locations= New location,
+
+Location[ New location
+Place{
+Pos_x = -237
+Pos_y = -122
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -80
+Pos_y = -197
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+FirstTrack = 1
+SecondTrack = 2
+}
+Place{
+Pos_x = -13
+Pos_y = -36
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Settings{
+Camera_x = 0
+Camera_y = 0
+}
+]

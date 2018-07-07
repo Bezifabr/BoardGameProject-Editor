@@ -1,0 +1,41 @@
+Character {
+Name = Oslas
+
+Level = 1
+HP = 100
+
+WillPower = 7
+Str = 3
+Agility = 3
+Endurance = 5
+Speed = 7
+Intelligence = 7
+
+Position= 4
+// You can use name of location or id
+Location= Start
+
+}
+
+Character {
+Name = Trognot the Just
+
+Level = 60
+HP = 60000
+Mana = 50000
+
+Str = 100
+Agility = 100
+Endurance = 250
+Speed = 100
+Intelligence = 100
+
+Position= 25
+Location = The Last Stand
+
+AddSpell = TROGNOT_JUSTIFY
+AddSpell = TROGNOT_TURN_TO_JUST
+AddSpell = TROGNOT_JUSTICE
+AddSpell = TROGNOT_EQUALITY
+
+}

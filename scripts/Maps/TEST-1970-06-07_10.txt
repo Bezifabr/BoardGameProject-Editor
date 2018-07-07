@@ -1,0 +1,164 @@
+Locations= Start,Middle,End,
+
+Location[ Start
+Place{
+Pos_x = 25
+Pos_y = 100
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 175
+Pos_y = 100
+Type = LostGold
+Texture = P_LostGold
+Track = 0
+}
+Place{
+Pos_x = 325
+Pos_y = 150
+Type = Minigame
+Texture = P_MiniGame
+Track = 0
+}
+Place{
+Pos_x = 475
+Pos_y = 175
+Type = Fight
+Texture = P_Fight
+Track = 0
+}
+Place{
+Pos_x = 625
+Pos_y = 200
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Settings{
+Camera_x = 0
+Camera_y = 0
+}
+]
+
+
+Location[ Middle
+Place{
+Pos_x = 775
+Pos_y = 300
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 625
+Pos_y = 400
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 475
+Pos_y = 425
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 325
+Pos_y = 425
+Type = Monster
+Texture = P_Monster
+Track = 0
+}
+Place{
+Pos_x = 200
+Pos_y = 425
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 200
+Pos_y = 650
+Type = CrossRoads
+Texture = P_CrossRoads
+Track = 0
+}
+Place{
+Pos_x = 400
+Pos_y = 675
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 600
+Pos_y = 675
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 800
+Pos_y = 675
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 300
+Pos_y = 875
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Settings{
+Camera_x = 0
+Camera_y = 0
+}
+]
+
+
+Location[ End
+Place{
+Pos_x = 550
+Pos_y = 950
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 750
+Pos_y = 1000
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 900
+Pos_y = 900
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 1100
+Pos_y = 950
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 1300
+Pos_y = 1000
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Settings{
+Camera_x = 0
+Camera_y = 0
+}
+]

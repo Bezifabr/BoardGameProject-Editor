@@ -1,0 +1,133 @@
+Texture{
+Name = Button
+Source = Graphics/Button.png
+}
+Texture{
+Name= NO_GRAPHIC
+Source = Graphics/NO_GRAPHIC.png
+}
+Texture{
+Name= NPC_GreenOrb
+Source = Graphics/NPC/GreenOrb.png
+}
+Texture{
+Name= NPC_YellowOrb
+Source = Graphics/NPC/YellowOrb.png
+}
+Texture{
+Name = P_CrossRoads
+Source = Places/P_CrossRoads.png
+}
+Texture{
+Name = P_EarnGold
+Source = Places/P_EarnGold.png
+}
+Texture{
+Name = P_Fight
+Source = Places/P_Fight.png
+}
+Texture{
+Name = P_Freeze
+Source = Places/P_Freeze.png
+}
+Texture{
+Name = P_LostGold
+Source = Places/P_LostGold.png
+}
+Texture{
+Name = P_MiniGame
+Source = Places/P_Minigame.png
+}
+Texture{
+Name = P_Monster
+Source = Places/P_Monster.png
+}
+Texture{
+Name = P_TurnBack
+Source = Places/P_TurnBack.png
+}
+Locations= New location,
+
+Location[ New location
+Place{
+Pos_x = -511
+Pos_y = -235
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -404
+Pos_y = -223
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -252
+Pos_y = -190
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -99
+Pos_y = -121
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 28
+Pos_y = 13
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -120
+Pos_y = 27
+Type = MiniGame
+Texture = P_MiniGame
+Track = 0
+}
+Place{
+Pos_x = -214
+Pos_y = -15
+Type = MiniGame
+Texture = P_MiniGame
+Track = 0
+}
+Place{
+Pos_x = -277
+Pos_y = -61
+Type = MiniGame
+Texture = P_MiniGame
+Track = 0
+}
+Place{
+Pos_x = -348
+Pos_y = -93
+Type = MiniGame
+Texture = P_MiniGame
+Track = 0
+}
+Place{
+Pos_x = -496
+Pos_y = -140
+Type = MiniGame
+Texture = P_MiniGame
+Track = 0
+}
+Place{
+Pos_x = -647
+Pos_y = -155
+Type = MiniGame
+Texture = P_MiniGame
+Track = 0
+}
+Settings{
+Camera_x = -350
+Camera_y = -415
+}
+]

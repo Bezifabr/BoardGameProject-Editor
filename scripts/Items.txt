@@ -1,0 +1,13 @@
+Skill{
+ID = SPELL
+Name = Blast
+Description = Blast_of_shit_in_your_face
+Icon = SPELL_BLAST
+Cooldown = 1
+IsTargetingSelf = true
+IsTargetingEnemy = false
+IsTargetingAlly = false
+IsUseImmediately = true
+IsUseOnTarget = false
+IsUsable = true
+}

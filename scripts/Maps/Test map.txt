@@ -1,0 +1,72 @@
+Locations= New location,Ale faza,
+
+Location[ New location
+Place{
+Pos_x = -4056
+Pos_y = 326
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -3897
+Pos_y = 393
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -3674
+Pos_y = 496
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -3745
+Pos_y = 341
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -3642
+Pos_y = 285
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Settings{
+Camera_x = -3740
+Camera_y = 475
+}
+]
+
+
+Location[ Ale faza
+Place{
+Pos_x = -111
+Pos_y = -116
+Type = LostGold
+Texture = P_LostGold
+Track = 0
+}
+Place{
+Pos_x = 12
+Pos_y = -158
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 17
+Pos_y = -55
+Type = MiniGame
+Texture = P_MiniGame
+Track = 0
+}
+Settings{
+Camera_x = 0
+Camera_y = 0
+}
+]

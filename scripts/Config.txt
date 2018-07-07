@@ -1,0 +1,158 @@
+///////////////////////////////////////////////
+///////   EDITOR CONFIGURATION FILE  //////////
+///////////////////////////////////////////////
+
+
+//////
+// Main Settings
+/////
+
+
+/////
+// Default graphics
+/////
+Texture{
+Name = Button
+Source = Graphics/Button.png
+}
+Texture{
+Name= NO_GRAPHIC
+Source = Graphics/NO_GRAPHIC.png
+}
+Texture{
+Name= NPC_GreenOrb
+Source = Graphics/NPC/GreenOrb.png
+}
+Texture{
+Name= NPC_YellowOrb
+Source = Graphics/NPC/YellowOrb.png
+}
+Texture{
+Name = P_CrossRoads
+Source = Places/P_CrossRoads.png
+}
+Texture{
+Name = P_EarnGold
+Source = Places/P_EarnGold.png
+}
+Texture{
+Name = P_Fight
+Source = Places/P_Fight.png
+}
+Texture{
+Name = P_Freeze
+Source = Places/P_Freeze.png
+}
+Texture{
+Name = P_LostGold
+Source = Places/P_LostGold.png
+}
+Texture{
+Name = P_MiniGame
+Source = Places/P_Minigame.png
+}
+Texture{
+Name = P_Monster
+Source = Places/P_Monster.png
+}
+Texture{
+Name = P_TurnBack
+Source = Places/P_TurnBack.png
+}
+Sound{
+Name = NO_SOUND
+Source = Sounds/NO_SOUND.wav
+}
+Font{
+Name = Default
+Source = Default.ttf
+}
+/////
+// Default template NPCs
+/////
+NPC{
+Name= Trader
+Level= 10
+Texture= NPC_GreenOrb
+Role = Trader
+Strength=10
+Agility=10
+WillPower=10
+Intelligence=10
+Health=10
+SpellFuel=10
+SpellFuelType=Mana
+Endurance=10
+Speed=10
+Spell=Fireblast
+Spell=Frostbolt
+PiercingArmor=10
+CuttingArmor=10
+CrushingArmor=10
+MagicalArmor=10
+Item=HealthPotion_L
+Item=ManaPotion_L
+Loot=TomeofIntelligence
+LootChance=100
+}
+
+NPC{
+Name= Trainer
+Level= 10
+Texture= NPC_YellowOrb
+Role = Trainer
+Strength=10
+Agility=10
+WillPower=10
+Intelligence=10
+Health=10
+SpellFuel=10
+SpellFuelType=Mana
+Endurance=10
+Speed=10
+Spell=Fireblast
+Spell=Frostbolt
+PiercingArmor=10
+CuttingArmor=10
+CrushingArmor=10
+MagicalArmor=10
+Item=HealthPotion_L
+Item=ManaPotion_L
+Loot=TomeofIntelligence
+LootChance=100
+}
+/////
+// Default template Fields
+/////
+Field{
+Name=EarnGold
+Texture=P_EarnGold
+}
+Field{
+Name=LostGold
+Texture=P_LostGold
+}
+Field{
+Name=MiniGame
+Texture=P_MiniGame
+}
+Field{
+Name=Fight
+Texture=P_Fight
+}
+Field{
+Name=Monster
+Texture=P_Monster
+}
+Field{
+Name=TurnBack
+Texture=P_TurnBack
+}
+Field{
+Name=CrossRoads
+Texture=P_CrossRoads
+}
+Field{
+Name=Freeze
+Texture=P_Freeze
+}
